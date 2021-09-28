@@ -16,13 +16,13 @@ if n % 2 != 0:
     print('Weird')
 #If n is event,we continue to compare the conditions
 else:
-    #If n range 2 to 5. in not Weird
+    #If n range 2 to 5, Print not Weird
     if (n>=2) and (n<=5):
         print('Not Weird')
-    #If n within the range 6 to 20. in Weird
+    #If n within the range 6 to 20, Print Weird
     if (n>=6) and (n<=20):
         print('Weird')
-    #If n greater than 20, print Not Weird
+    #If n greater than 20, Print Not Weird
     if n>20:
         print('Not Weird')
 
